@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application1</string>
+    <string name="textoBotonAcerca">About us</string>
+    <string name="textoBotonConfigurar">Settings</string>
+    <string name="textoBotonJugar">Play</string>
+    <string name="textoBotonSalir">Exit</string>
+    <string name="tituloAplicacion">Application1</string>
+</resources>
