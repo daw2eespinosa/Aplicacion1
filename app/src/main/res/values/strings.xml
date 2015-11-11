@@ -12,7 +12,7 @@
     <string name="pa_key">preferencias principal</string>
     <string name="p1_summary">musica</string>
     <string name="p1_key">musica</string>
-    <string name="p1_title">Reproducir musica</string>
+    <string name="p1_title">Reproducir música</string>
     <string name="p2_key">Graficos</string>
     <string name="p2_summary">Escoger la representación de gráficos</string>
     <string name="p2_title">Tipo de graficos</string>
