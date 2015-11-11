@@ -46,4 +46,10 @@ public class Localizacion extends AppCompatActivity {
         Intent i = new Intent(this, Sobre.class);
         startActivity(i);
     }
+
+    public void lanzarPreferencias(View view){
+        Intent i = new Intent(this, Preferencies.class);
+        startActivity(i);
+    }
+
 }

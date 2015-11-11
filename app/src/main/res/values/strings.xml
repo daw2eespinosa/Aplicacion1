@@ -9,4 +9,14 @@
     <string name="menuConfiguracion">Configuración</string>
     <string name="menuSobre">Sobre...</string>
     <string name="buscar">Buscar</string>
+    <string name="pa_key">preferencias principal</string>
+    <string name="p1_summary">musica</string>
+    <string name="p1_key">musica</string>
+    <string name="p1_title">Reproducir musica</string>
+    <string name="p2_key">Graficos</string>
+    <string name="p2_summary">Escoger la representación de gráficos</string>
+    <string name="p2_title">Tipo de graficos</string>
+    <string name="p3_key">Fragmentos</string>
+    <string name="p3_summary">En cuantos trozos se divide un asteroide</string>
+    <string name="p3_title">Numero de fragmentos</string>
 </resources>
