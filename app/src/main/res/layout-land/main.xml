@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context=".Localizacion">
+    tools:context=".Localizacion"
+    android:theme="@style/Theme.AppCompat">
 
     <TextView
         android:id="@+id/tituloAplicacion"
@@ -18,7 +19,8 @@
         android:text="@string/tituloAplicacion"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="@dimen/sizeTituloAplicacion"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorTituloAplicacion"/>
 
     <TableLayout
         android:layout_width="match_parent"
