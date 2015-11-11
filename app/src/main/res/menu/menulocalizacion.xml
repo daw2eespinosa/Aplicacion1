@@ -3,10 +3,18 @@
     <item
         android:id="@+id/config"
         android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="95"
+        android:showAsAction="ifRoom"
         android:title="@string/menuConfiguracion" />
     <item
         android:id="@+id/sobre"
         android:icon="@android:drawable/ic_menu_info_details"
+        android:showAsAction="ifRoom|withText"
         android:title="@string/menuSobre" />
-
+    <item
+        android:id="@+id/buscar"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="90"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/buscar" />
 </menu>

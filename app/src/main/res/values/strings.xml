@@ -8,4 +8,5 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="menuConfiguracion">Configuración</string>
     <string name="menuSobre">Sobre...</string>
+    <string name="buscar">Buscar</string>
 </resources>
