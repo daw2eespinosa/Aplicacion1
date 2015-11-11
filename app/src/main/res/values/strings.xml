@@ -5,4 +5,5 @@
     <string name="textoBotonConfigurar">Configurar</string>
     <string name="textoBotonAcerca">Acerca de</string>
     <string name="textoBotonSalir">Salir</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
