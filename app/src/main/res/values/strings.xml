@@ -19,4 +19,5 @@
     <string name="p3_key">Fragmentos</string>
     <string name="p3_summary">En cuantos trozos se divide un asteroide</string>
     <string name="p3_title">Numero de fragmentos</string>
+    <string name="textoBotonPuntuaciones">Puntuaciones</string>
 </resources>

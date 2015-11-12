@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Localizacion extends AppCompatActivity {
-
+    public static AlmacenPuntuaciones almacen = new AlmacenPuntuacionesArray();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,5 +51,8 @@ public class Localizacion extends AppCompatActivity {
         Intent i = new Intent(this, Preferencies.class);
         startActivity(i);
     }
-
+    public void lanzarPuntuaciones(View view){
+        Intent i = new Intent(this, null);
+        startActivity(i);
+    }
 }
