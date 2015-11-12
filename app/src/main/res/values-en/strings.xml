@@ -6,4 +6,21 @@
     <string name="textoBotonJugar">Play</string>
     <string name="textoBotonSalir">Exit</string>
     <string name="tituloAplicacion">Application1</string>
+    <string name="buscar">Search</string>
+    <string name="menuConfiguracion">Settings</string>
+    <string name="menuSobre">About..</string>
+    <string name="p1_key">music</string>
+    <string name="p1_summary">music</string>
+    <string name="p1_title">Playback music</string>
+    <string name="p2_key">Graphics</string>
+    <string name="p2_summary">Choose a graphic type</string>
+    <string name="p2_title">Type of graphics</string>
+    <string name="p3_key">Fragments</string>
+    <string name="p3_summary">How many fragments do?</string>
+    <string name="text4">Score</string>
+    <string name="text5">Without scores</string>
+    <string name="texto6">alter text</string>
+    <string name="textoBotonPuntuaciones">Score</string>
+    <string name="p3_title">Number of fragments</string>
+    <string name="pa_key">Main settings</string>
 </resources>

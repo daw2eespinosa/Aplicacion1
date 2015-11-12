@@ -9,9 +9,19 @@ import android.widget.ArrayAdapter;
  */
 public class Puntuaciones extends ListActivity {
     @Override
+/*    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.puntuaciones);
+        setListAdapter(new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1,
+                Localizacion.almacen.listaPuntuaciones(10)));
+    }*/
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.puntuaciones);
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, Localizacion.almacen.listaPuntuaciones(10)));
+        setListAdapter(new ArrayAdapter<String>(this,
+                R.layout.elemento_lista,
+        R.id.titulo1,
+                Localizacion.almacen.listaPuntuaciones(10)));
     }
 }
