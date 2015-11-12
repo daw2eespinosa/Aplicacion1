@@ -52,7 +52,7 @@ public class Localizacion extends AppCompatActivity {
         startActivity(i);
     }
     public void lanzarPuntuaciones(View view){
-        Intent i = new Intent(this, null);
+        Intent i = new Intent(this, Puntuaciones.class);
         startActivity(i);
     }
 }
