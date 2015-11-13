@@ -33,5 +33,10 @@ public class Puntuaciones extends ListActivity {
         setListAdapter(new MiAdaptador(this,
                 Localizacion.almacen.listaPuntuaciones(10)));
     }
-
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id) {
+        super.onListItemClick(l, v, position, id);
+        Object o = getListAdapter().getItem(position);
+        Toast.makeText(this, "Seleccion: " + Integer.toString(position) + " - " + o.toString(), Toast.LENGTH_LONG).show();
+    }
 }

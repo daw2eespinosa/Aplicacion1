@@ -49,7 +49,7 @@ public class MiAdaptador extends BaseAdapter {
         View view = null;
         if (convertView == null) {
             view = inflater.inflate(R.layout.elemento_lista, null, true);
-            Toast.makeText(actividad, Integer.toString(position) , Toast.LENGTH_SHORT).show();
+//            Toast.makeText(actividad, Integer.toString(position) , Toast.LENGTH_SHORT).show();
         } else {
             view = convertView;
         }
