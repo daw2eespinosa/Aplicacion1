@@ -6,7 +6,7 @@
         android:layout_width="?android:attr/listPreferredItemHeight"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
-        android:src="@color/colorTituloAplicacion"
+        android:src="@drawable/asteroide1"
         android:id="@+id/icono"/>
     <TextView
         android:layout_width="match_parent"
