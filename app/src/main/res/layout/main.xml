@@ -62,5 +62,6 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:onClick="lanzarPuntuaciones"
-        android:text="@string/textoBotonPuntuaciones" />
+        android:text="@string/textoBotonPuntuaciones"
+        android:background="@drawable/degradado"/>
 </RelativeLayout>

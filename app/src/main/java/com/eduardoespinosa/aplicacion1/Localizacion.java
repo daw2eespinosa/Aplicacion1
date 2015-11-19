@@ -23,6 +23,9 @@ public class Localizacion extends AppCompatActivity {
                 lanzarSobre(null);
             }
         });
+
+//        Button bSalir = (Button) findViewById(R.id.botonSalir);
+//        bSalir.setBackgroundResource(R.drawable.degradado);
     }
 
     @Override
